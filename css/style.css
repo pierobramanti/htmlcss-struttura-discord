@@ -13,6 +13,7 @@ body{
 }
 .container{
     max-width: 1200px;
+    margin: auto;
     
 }
 .row{
@@ -45,6 +46,12 @@ body{
     height: 20px;
     margin-top: 30px;
 }
+.col-4{
+    background-color: rgb(233, 141, 156);
+    width: 600px;
+    height: 150px;
+    margin:auto;
+}
 
 .content{
     display: flex;
@@ -53,6 +60,13 @@ body{
     list-style-type: none;
     gap: 50px;
     display: flex;
+    
+}
+.row-blue{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blue;
+    height: 200px;
     
 }
 
