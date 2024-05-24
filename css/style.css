@@ -61,6 +61,7 @@ body{
     width:calc(30%);
     margin-top: 50px;
     margin-bottom: 50px;
+    border: 2px dashed black
     
         
 }
@@ -69,6 +70,7 @@ body{
     height: 200px;
     width:calc(20%);
     margin-top: 50px;
+    border: 2px dashed black
 }
 
 .col-green{
@@ -76,6 +78,7 @@ body{
     height: 400px;
     width:calc(50%);
     margin-top: 50px;
+    border: 2px dashed black
 
 }
 
@@ -84,6 +87,7 @@ body{
     height: 350px;
     width:calc(18%);
     margin-top: 10px;
+    border: 2px dashed black
 
 }
 .col-lightblue{
@@ -91,7 +95,7 @@ body{
     height: 350px;
     width:calc(8%);
     margin-top: 10px;
-    border: 1px solid white;
+    border: 1px dashed white;
 
 }
 .content{
