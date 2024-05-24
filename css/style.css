@@ -69,8 +69,14 @@ body{
     height: 200px;
     width:calc(20%);
     margin-top: 50px;
-    
-    
+}
+
+.col-green{
+    background-color: rgb(34, 202, 0);
+    height: 400px;
+    width:calc(50%);
+    margin-top: 50px;
+
 }
 .content{
     display: flex;
