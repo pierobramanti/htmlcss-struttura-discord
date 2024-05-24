@@ -16,6 +16,8 @@ body{
     margin: auto;
     
 }
+
+
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -45,6 +47,7 @@ body{
     border: 2px dashed black;
     height: 20px;
     margin-top: 30px;
+   
 }
 .col-4{
     background-color: rgb(233, 141, 156);
@@ -52,7 +55,23 @@ body{
     height: 150px;
     margin:auto;
 }
-
+.col-blue{
+    background-color: rgb(25, 0, 255);
+    height: 200px;
+    width:calc(30%);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+        
+}
+.col-pink{
+    background-color: rgb(255, 165, 236);
+    height: 200px;
+    width:calc(20%);
+    margin-top: 50px;
+    
+    
+}
 .content{
     display: flex;
 }
@@ -65,9 +84,33 @@ body{
 .row-blue{
     display: flex;
     flex-wrap: wrap;
-    background-color: blue;
+    background-color: rgb(55, 123, 250);
     height: 200px;
     
 }
+.row-white{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:rgb(252, 252, 252);
+    height: 300px;
+    justify-content:center;
+   
+}
+
+.row-grey{
+     display: flex;
+    flex-wrap: wrap;
+    background-color:rgb(199, 199, 199);
+    height: 300px;
+    justify-content:center;
+}
+.row-grey-2{
+    display: flex;
+   flex-wrap: wrap;
+   background-color:rgb(199, 199, 199);
+   height: 500px;
+   justify-content:center;
+}
+
 
 
