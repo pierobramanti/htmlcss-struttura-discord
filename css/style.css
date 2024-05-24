@@ -78,6 +78,22 @@ body{
     margin-top: 50px;
 
 }
+
+.col-darkpink{
+    background-color: rgb(223, 32, 149);
+    height: 350px;
+    width:calc(18%);
+    margin-top: 10px;
+
+}
+.col-lightblue{
+    background-color: rgb(32, 217, 223);
+    height: 350px;
+    width:calc(8%);
+    margin-top: 10px;
+    border: 1px solid white;
+
+}
 .content{
     display: flex;
 }
@@ -116,6 +132,13 @@ body{
    background-color:rgb(199, 199, 199);
    height: 500px;
    justify-content:center;
+}
+.row-darkgrey{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:rgb(90, 75, 75);
+    height: 400px;
+    justify-content:center;
 }
 
 
